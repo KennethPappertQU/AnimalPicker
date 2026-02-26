@@ -28,7 +28,17 @@ public class AnimalPicker {
                                         "    `-.-' \\ )-`( , o o)\r\n" + //
                                         "          `-    \\`_`\"'-");
                 isChosen = true;
-            }  else {
+            }  else if (animal.equals("fish")) {
+                System.out.println("     |\\    o\r\n" + //
+                                        "    |  \\    o\r\n" + //
+                                        "|\\ /    .\\ o\r\n" + //
+                                        "| |       (\r\n" + //
+                                        "|/ \\     /\r\n" + //
+                                        "    |  /\r\n" + //
+                                        "     |/\r\n" + //
+                                        "");
+            }
+            else {
                 System.out.println("Error: That is not one of the answers. ");
                 isChosen = true;
             }
