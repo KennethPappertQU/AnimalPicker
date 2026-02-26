@@ -40,6 +40,9 @@ public class AnimalPicker {
                                 "        .||  /,     |\r\n" + //
                                 "       do_o00oo_,.ob\r\n" + //
                                 "");
+        } else {
+            System.out.println("Error: That is not one of the answers. ");
+        
         }
     }
 }
